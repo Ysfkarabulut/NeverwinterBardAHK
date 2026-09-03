@@ -14,7 +14,8 @@ const defaultLibrary = [
     { id: 13, title: "The Last of Us - Main Theme", code: "tlou", notes: "3 _ 6 _ 5 _ _ _ 3 _ 5 _ 4 _ _ _ 2 _ 4 _ 3 _ _ _ 1 _ 3 _ 2 _ _ _" },
     { id: 14, title: "Schindler's List Theme", code: "schindler", notes: "6 _ 7 _ 1+ _ _ _ 7 _ 6 _ 7 _ 3 _ _ _ _ 6 _ 7 _ 1+ _ _ _ 2+ _ 1+ _ 2+ _ 5 _ _ _" },
     { id: 15, title: "Naruto - Sadness and Sorrow", code: "sadness", notes: "6 _ 7 _ 1+ _ 3+ _ 2+ _ 1+ _ 7 _ 3 _ 6 _ _ _ _ 6 _ 7 _ 1+ _ 3+ _ 5+ _ 4+ _ 3+ _ 2+ _ 3+ _ _ _" },
-    { id: 16, title: "Simon & Garfunkel - Sound of Silence", code: "darkness", notes: "2 2 4 4 5 _ 5 4 _ _ 4 4 6 6 1+ _ 1+ 6 _ _ 6 6 2+ _ 2+ 2+ 1+ 1+ 6 4 _ 4 6 2+ _ 2+ 2+ 1+ 1+ 6 4 _ 4 4 4+ _ 4+ 3+ 2+ 1+ 2+ 1+ 6 _ _ 1+ _ 6 5 4 _ _ 4 _ 4 5 6 _ 4 2 _ _ _" }
+    { id: 16, title: "Simon & Garfunkel - Sound of Silence", code: "darkness", notes: "2 2 4 4 5 _ 5 4 _ _ 4 4 6 6 1+ _ 1+ 6 _ _ 6 6 2+ _ 2+ 2+ 1+ 1+ 6 4 _ 4 6 2+ _ 2+ 2+ 1+ 1+ 6 4 _ 4 4 4+ _ 4+ 3+ 2+ 1+ 2+ 1+ 6 _ _ 1+ _ 6 5 4 _ _ 4 _ 4 5 6 _ 4 2 _ _ _" },
+    { id: 17, title: "Deep Purple - Soldier of Fortune", code: "soldier", notes: "6 6 6 6 6 5 4 5 6 _ _ 2+ 2+ 2+ 2+ 1+ 7 6 _ _ 6 5 4 3 4 5 6 _ _ 6 6 6 6 6 5 4 5 6 _ _ 2+ 2+ 2+ 2+ 1+ 7 6 _ _ 4+ 3+ 2+ 1+ 2+ 3+ 4+ _ _ 3+ 2+ 1+ 7 1+ 2+ 3+ _ _ 6 1+ 3+ 3+ 3+ 2+ 1+ 2+ 3+ _ _ 4+ 3+ 2+ 1+ 7 6 5# 6 _ _ 6 1+ 3+ 3+ 3+ 2+ 1+ 2+ 3+ _ _ 4+ 3+ 2+ 1+ 7 6 5# 6 _ _ 4 5 6 7 1+ 7 1+ 2+ 1+ 7 6 _ _ 2+ _ 1+ _ 7 _ 6 _ 7 _ 6 _ _ 4 3 2 3 4 5 6 _ _ _" }
 ];
 
 let setlist = [];
