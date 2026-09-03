@@ -5,7 +5,10 @@ const defaultLibrary = [
     { id: 4, title: "Neşeye Övgü (Ode to Joy)", code: "oj", notes: "3 3 4 5 5 4 3 2 1 1 2 3 3 _ 2 2 _" },
     { id: 5, title: "Game of Thrones", code: "got", notes: "6 _ _ 2+ 4+ 5+ 6 _ _ 2+ 4+ 5+ 6 _ _" },
     { id: 6, title: "Star Wars", code: "sw", notes: "1 _ _ 5 _ _ 4 3 2 1+ _ _ 5 _ _ 4 3 2 1+ _ _ 5 _ _ 4 3 4 2" },
-    { id: 7, title: "Megalovania", code: "mega", notes: "2 2 2+ _ 6 _ _ 6b _ 5 _ 4 _ 2 4 5" }
+    { id: 7, title: "Megalovania", code: "mega", notes: "2 2 2+ _ 6 _ _ 6b _ 5 _ 4 _ 2 4 5" },
+    { id: 8, title: "Super Mario Bros", code: "mario", notes: "3 3 _ 3 _ 1 3 _ 5 _ _ _ 5- _ _ _" },
+    { id: 9, title: "Yüzüklerin Efendisi (Hobbit)", code: "lotr", notes: "2 3 4# _ 6 _ 4# 3 2 _ _" },
+    { id: 10, title: "Zelda's Lullaby", code: "zelda", notes: "7 _ 2+ _ 6 _ _ _ 5 6 7 _ 2+ _ 6 _ _ _" }
 ];
 
 let setlist = [];
