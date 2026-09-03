@@ -16,7 +16,14 @@ const defaultLibrary = [
     { id: 15, title: "Naruto - Sadness and Sorrow", code: "sadness", notes: "6 _ 7 _ 1+ _ 3+ _ 2+ _ 1+ _ 7 _ 3 _ 6 _ _ _ _ 6 _ 7 _ 1+ _ 3+ _ 5+ _ 4+ _ 3+ _ 2+ _ 3+ _ _ _" },
     { id: 16, title: "Simon & Garfunkel - Sound of Silence", code: "darkness", notes: "2 2 4 4 5 _ 5 4 _ _ 4 4 6 6 1+ _ 1+ 6 _ _ 6 6 2+ _ 2+ 2+ 1+ 1+ 6 4 _ 4 6 2+ _ 2+ 2+ 1+ 1+ 6 4 _ 4 4 4+ _ 4+ 3+ 2+ 1+ 2+ 1+ 6 _ _ 1+ _ 6 5 4 _ _ 4 _ 4 5 6 _ 4 2 _ _ _" },
     { id: 17, title: "Deep Purple - Soldier of Fortune", code: "soldier", notes: "6 6 6 6 6 5 4 5 6 _ _ 2+ 2+ 2+ 2+ 1+ 7 6 _ _ 6 5 4 3 4 5 6 _ _ 6 6 6 6 6 5 4 5 6 _ _ 2+ 2+ 2+ 2+ 1+ 7 6 _ _ 4+ 3+ 2+ 1+ 2+ 3+ 4+ _ _ 3+ 2+ 1+ 7 1+ 2+ 3+ _ _ 6 1+ 3+ 3+ 3+ 2+ 1+ 2+ 3+ _ _ 4+ 3+ 2+ 1+ 7 6 5# 6 _ _ 6 1+ 3+ 3+ 3+ 2+ 1+ 2+ 3+ _ _ 4+ 3+ 2+ 1+ 7 6 5# 6 _ _ 4 5 6 7 1+ 7 1+ 2+ 1+ 7 6 _ _ 2+ _ 1+ _ 7 _ 6 _ 7 _ 6 _ _ 4 3 2 3 4 5 6 _ _ _" },
-    { id: 18, title: "Duman - İçerim Ben Bu Akşam", code: "duman", notes: "6 _ 1+ _ 2+ _ _ 2+ 3+ 2+ 1+ 6 _ _ _ 6 _ 1+ _ 2+ _ _ 2+ 3+ 2+ 1+ 5 _ _ _ 6 _ 1+ _ 2+ _ _ 2+ 3+ 2+ 1+ 6 _ _ _ 5 _ 5 6 1+ _ 6 _ _ _ _ 3+ _ 3+ _ 3+ 2+ 1+ 7 6 _ _ _ 3+ _ 3+ _ 3+ 2+ 1+ 7 1+ _ _ _ 2+ _ 2+ _ 2+ 1+ 7 6 5 _ _ _ 7 _ 7 _ 1+ 2+ 1+ 7 6 _ _ _" }
+    { id: 18, title: "Duman - İçerim Ben Bu Akşam", code: "duman", notes: "6 _ 1+ _ 2+ _ _ 2+ 3+ 2+ 1+ 6 _ _ _ 6 _ 1+ _ 2+ _ _ 2+ 3+ 2+ 1+ 5 _ _ _ 6 _ 1+ _ 2+ _ _ 2+ 3+ 2+ 1+ 6 _ _ _ 5 _ 5 6 1+ _ 6 _ _ _ _ 3+ _ 3+ _ 3+ 2+ 1+ 7 6 _ _ _ 3+ _ 3+ _ 3+ 2+ 1+ 7 1+ _ _ _ 2+ _ 2+ _ 2+ 1+ 7 6 5 _ _ _ 7 _ 7 _ 1+ 2+ 1+ 7 6 _ _ _" },
+    { id: 19, title: "Barış Manço - Gülpembe", code: "gülpembe", notes: "3 _ 5 _ 4# _ 3 _ 4# _ 3 _ 2 _ 3 _ 1 _ 2 _ _ _ 3 _ 5 _ 4# _ 3 _ 4# _ 3 _ 2 _ 3 _ 1 _ 2 _ _ _" },
+    { id: 20, title: "Erkin Koray - Fesuphanallah", code: "fesuphan", notes: "2 _ 3 _ 4 _ 3 _ 4 _ 3 _ 2 _ 1 _ 2 _ _ _ 2 3 4 3 2 3 4 _ 4 3 2 3 2 1 2 _ _ _" },
+    { id: 21, title: "Cem Karaca - Islak Islak", code: "islak", notes: "3 _ 4 _ 5 _ 4 _ 3 _ 2 _ 1 _ 2 _ 3 _ _ _ 3 3 4 5 _ 5 4 3 4 3 2 3 _ _ _" },
+    { id: 22, title: "Fikret Kızılok - Bu Kalp Seni Unutur Mu", code: "bukalp", notes: "3 _ 6 _ 5 _ 4 _ 3 _ _ _ 2 _ 5 _ 4 _ 3 _ 2 _ _ _ 1 _ 4 _ 3 _ 2 _ 1 _ _ _ 7- _ 3 _ 2 _ 1 _ 7- _ 6- _ _ _" },
+    { id: 23, title: "Moğollar - Devlerin Aşkı", code: "devler", notes: "6 _ 7 _ 1+ _ 7 _ 6 _ 5 _ 6 _ _ _ 6 _ 7 _ 1+ _ 2+ _ 3+ _ 2+ _ 1+ _ 7 _ _ _" },
+    { id: 24, title: "Mor ve Ötesi - Bir Derdim Var", code: "birderdim", notes: "3+ _ 4+ _ 3+ _ 2+ _ 1+ _ 2+ _ 1+ _ 7 _ 1+ _ 7 _ 6 _ _ _" },
+    { id: 25, title: "Pinhani - Hele Bi Gel", code: "heles", notes: "2 _ 3 _ 4# _ 5 _ 4# _ 3 _ 2 _ 1# _ 2 _ _ _" }
 ];
 
 let setlist = [];
