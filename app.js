@@ -1,11 +1,11 @@
 const defaultLibrary = [
-    { id: 1, title: "Harry Potter (Hedwig's Theme)", code: "hp", notes: "1 4 5# 5 4 7# 6# 5 1 4 5# 5 4 1+" },
-    { id: 2, title: "Karayip Korsanları", code: "poc", notes: "1 1 2 2 2 3 4 4 4 5 3 3 2 1 1 2" },
-    { id: 3, title: "The Godfather", code: "gf", notes: "3 6 1+ 7 6 1+ 6 7 6 4 5 3" },
-    { id: 4, title: "Neşeye Övgü (Ode to Joy)", code: "oj", notes: "3 3 4 5 5 4 3 2 1 1 2 3 3 2 2" },
-    { id: 5, title: "Game of Thrones", code: "got", notes: "6 2+ 4+ 5+ 6 2+ 4+ 5+ 6" },
-    { id: 6, title: "Star Wars", code: "sw", notes: "1 5 4 3 2 1+ 5 4 3 2 1+ 5 4 3 4 2" },
-    { id: 7, title: "Megalovania", code: "mega", notes: "2 2 2+ 6 6b 5 4 2 4 5" }
+    { id: 1, title: "Harry Potter (Hedwig's Theme)", code: "hp", notes: "1 4 _ 5# 5 4 _ 7# _ 6# _ _ 5 _ 1 4 _ 5# 5 4 _ 1+ _ _" },
+    { id: 2, title: "Karayip Korsanları", code: "poc", notes: "1 1 _ 2 2 _ 2 3 _ 4 4 _ 4 5 _ 3 3 _ 2 1 1 2" },
+    { id: 3, title: "The Godfather", code: "gf", notes: "3 _ 6 _ 1+ _ 7 6 _ 1+ _ 6 7 6 _ 4 5 3" },
+    { id: 4, title: "Neşeye Övgü (Ode to Joy)", code: "oj", notes: "3 3 4 5 5 4 3 2 1 1 2 3 3 _ 2 2 _" },
+    { id: 5, title: "Game of Thrones", code: "got", notes: "6 _ _ 2+ 4+ 5+ 6 _ _ 2+ 4+ 5+ 6 _ _" },
+    { id: 6, title: "Star Wars", code: "sw", notes: "1 _ _ 5 _ _ 4 3 2 1+ _ _ 5 _ _ 4 3 2 1+ _ _ 5 _ _ 4 3 4 2" },
+    { id: 7, title: "Megalovania", code: "mega", notes: "2 2 2+ _ 6 _ _ 6b _ 5 _ 4 _ 2 4 5" }
 ];
 
 let setlist = [];
@@ -104,6 +104,11 @@ function generateAHK() {
         const notesArr = song.notes.trim().split(/\\s+/);
         
         notesArr.forEach(note => {
+            if (note === "_") {
+                ahkScript += `Sleep ${speed}\\n`;
+                return;
+            }
+
             let key = note;
             let modifier = "";
             let modUp = "";
