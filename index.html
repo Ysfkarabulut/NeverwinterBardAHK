@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neverwinter Bard AHK Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-effects">
+        <div class="glow-orb orb-1"></div>
+        <div class="glow-orb orb-2"></div>
+    </div>
+    
+    <div class="container">
+        <header>
+            <h1>Bard Master <span>AHK</span></h1>
+            <p>Neverwinter Ozanları için Otomatik Şarkı Çalma Sihirbazı</p>
+        </header>
+
+        <main>
+            <div class="panel library-panel glass">
+                <h2>Kütüphane</h2>
+                <div class="song-list" id="library-list">
+                    <!-- Songs will be injected here -->
+                </div>
+                <div class="custom-song">
+                    <h3>Kendi Şarkını Ekle</h3>
+                    <input type="text" id="custom-title" placeholder="Şarkı Adı">
+                    <input type="text" id="custom-code" placeholder="Kısa Kod (örn: my)">
+                    <textarea id="custom-notes" placeholder="Notaları girin (örn: 1 1 5 5 6 6 5)"></textarea>
+                    <button id="btn-add-custom">Ekle</button>
+                </div>
+            </div>
+
+            <div class="panel setlist-panel glass">
+                <h2>Setlist (Seçilen Şarkılar)</h2>
+                <div class="setlist" id="setlist">
+                    <!-- Selected songs will be shown here -->
+                    <p class="empty-msg">Kütüphaneden şarkı seçin...</p>
+                </div>
+                
+                <div class="action-section">
+                    <div class="settings">
+                        <label>
+                            Nota Hızı (ms):
+                            <input type="number" id="play-speed" value="300" min="50" max="1000">
+                        </label>
+                    </div>
+                    <button id="btn-generate" class="glow-btn">Master AHK İndir</button>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
