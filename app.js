@@ -9,7 +9,8 @@ const defaultLibrary = [
     { id: 8, title: "Super Mario Bros", code: "mario", notes: "3 3 _ 3 _ 1 3 _ 5 _ _ _ 5- _ _ _" },
     { id: 9, title: "Yüzüklerin Efendisi (Hobbit)", code: "lotr", notes: "2 3 4# _ 6 _ 4# 3 2 _ _" },
     { id: 10, title: "Zelda's Lullaby", code: "zelda", notes: "7 _ 2+ _ 6 _ _ _ 5 6 7 _ 2+ _ 6 _ _ _" },
-    { id: 11, title: "Açık Seçik Aşk Bandosu - Solo", code: "huzur", notes: "6 _ 1+ _ 2+ _ _ 3+ _ 2+ 1+ _ 6 _ _ 3+ _ _ 2+ _ 1+ 7 _ 6 _ _ 6 7 1+ 2+ _ 1+ 7 6 5# 6 _ _" }
+    { id: 11, title: "Açık Seçik Aşk Bandosu - Solo", code: "huzur", notes: "6 _ 1+ _ 2+ _ _ 3+ _ 2+ 1+ _ 6 _ _ 3+ _ _ 2+ _ 1+ 7 _ 6 _ _ 6 7 1+ 2+ _ 1+ 7 6 5# 6 _ _" },
+    { id: 12, title: "S.T.A.L.K.E.R. - Campfire Guitar", code: "stalker", notes: "6 _ 1+ _ 3+ _ _ _ 2+ _ 1+ _ 7 _ _ _ 6 _ _ _ 3 _ _ _ 6 _ 1+ _ 3+ _ _ _ 4+ _ 3+ _ 2+ _ _ _ 3+ _ _ _" }
 ];
 
 let setlist = [];
